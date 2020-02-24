@@ -4755,7 +4755,7 @@ h1,
 h2,
 h3,
 h4,
-stong {
+strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
@@ -4866,6 +4866,8 @@ sup {
     color: #61dafb
 }
 
+@media only screen and (min-width:768px) {}
+
 @media only screen and (min-width:768px) {
     .header .site-title {
         margin: 0;
@@ -4881,43 +4883,42 @@ sup {
     margin-top: 10px
 }
 
-@media only screen and (min-width:768px) {
-    .header .site-description {
-        font-size: 34px;
-        color: #fff;
-    }
+.header-icons .icon {
+    width: 35px;
+    height: 35px;
+    font-size: 30px
 }
 
+.header-links .link {
+    font-size: 20px
+}
+
+#about {
+    width: 80%
+}
+
+
+}
 .header-links {
     margin: 10px
 }
-
 .header-links .link {
     color: #fff;
     text-decoration: none;
     font-size: 15px;
     margin: 10px
 }
-
-@media only screen and (min-width:768px) {
-    .header-links .link {
-        font-size: 20px
-    }
-}
-
 .header-icons a {
     outline: 0!important;
     border: none!important;
     outline-style: none!important;
     -moz-outline-style: none!important
 }
-
 .down,
 .header-icons .icon {
     color: #fff;
     text-align: center
 }
-
 .header-icons .icon {
     height: 20px;
     padding: 10px;
@@ -4928,21 +4929,11 @@ sup {
     margin: 5px;
     border: 2px solid #fff
 }
-
 .header-icons .icon:active,
 .header-icons .icon:hover {
     color: #1a222c;
     background: #fff
 }
-
-@media only screen and (min-width:768px) {
-    .header-icons .icon {
-        width: 35px;
-        height: 35px;
-        font-size: 30px
-    }
-}
-
 .down {
     position: absolute;
     bottom: 25px;
@@ -4956,7 +4947,6 @@ sup {
     outline-style: none!important;
     -moz-outline-style: none!important
 }
-
 .down .icon {
     position: absolute;
     -webkit-transform-style: preserve-3d;
@@ -4971,44 +4961,33 @@ sup {
     -webkit-animation: pulse 1.3s infinite;
     animation: pulse 1.3s infinite
 }
-
 .down .icon:active,
 .down .icon:hover,
 .footer a:active,
 .footer a:hover {
     color: #4b5664
 }
-
 #about {
     font-size: 120%;
     width: 90%;
     margin: 0 auto;
     max-width: 960px
 }
-
-@media only screen and (min-width:768px) {
-    #about {
-        width: 80%
-    }
-}
-
+@media only screen and (min-width:768px) {}
 #about svg {
     width: 60px!important;
     height: auto
 }
-
 .tech {
     margin: 10px;
     flex: 1 1 0
 }
-
 .tech h2,
 .tech h3,
 .user-details h1,
 body {
     font-weight: 400
 }
-
 .user {
     text-align: center;
     font-size: 60px;
@@ -5017,23 +4996,19 @@ body {
     flex-wrap: wrap;
     justify-content: space-between
 }
-
 .user p {
     font-size: 16px
 }
-
 @media only screen and (min-width:768px) {
     .user {
         flex-wrap: nowrap;
         font-size: 75px
     }
 }
-
 .user-details {
     text-align: center;
     margin: 5px auto
 }
-
 .footer {
     background: #1a222c;
     padding: 10px 0;
@@ -5041,17 +5016,14 @@ body {
     text-align: center;
     color: #fff
 }
-
 .footer .love {
     color: red
 }
-
 .footer a {
     text-decoration: none;
     margin: 0;
     color: #fff
 }
-
 .keader {
     -webkit-animation: keader 1.4s;
     -moz-animation: keader 1.4s;
@@ -5059,14 +5031,12 @@ body {
     -o-animation: keader 1.4s;
     animation: keader 1.4s
 }
-
 .tanimation {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both
 }
-
 @-webkit-keyframes kago {
     0%,
     60%,
@@ -5076,30 +5046,34 @@ body {
         -webkit-animation-timing-function: cubic-bezier(.2, .6, .34, 1);
         animation-timing-function: cubic-bezier(.2, .6, .34, 1)
     }
+    
     0% {
         opacity: 0;
         -webkit-transform: translate3d(0, -2902px, 0);
         transform: translate3d(0, -2902px, 0)
     }
+    
     60% {
         opacity: 1;
         -webkit-transform: translate3d(0, 30px, 0);
         transform: translate3d(0, 30px, 0)
     }
+    
     75% {
         -webkit-transform: translate3d(0, -15px, 0);
         transform: translate3d(0, -15px, 0)
     }
+    
     90% {
         -webkit-transform: translate3d(0, 5px, 0);
         transform: translate3d(0, 5px, 0)
     }
+    
     to {
         -webkit-transform: translateZ(0);
         transform: translateZ(0)
     }
 }
-
 @keyframes kago {
     0%,
     60%,
@@ -5109,87 +5083,89 @@ body {
         -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
         animation-timing-function: cubic-bezier(.215, .61, .355, 1)
     }
+    
     0% {
         opacity: 0;
         -webkit-transform: translate3d(0, -3000px, 0);
         transform: translate3d(0, -3000px, 0)
     }
+    
     60% {
         opacity: 1;
         -webkit-transform: translate3d(0, 25px, 0);
         transform: translate3d(0, 25px, 0)
     }
+    
     75% {
         -webkit-transform: translate3d(0, -10px, 0);
         transform: translate3d(0, -10px, 0)
     }
+    
     90% {
         -webkit-transform: translate3d(0, 5px, 0);
         transform: translate3d(0, 5px, 0)
     }
+    
     to {
         -webkit-transform: translateZ(0);
         transform: translateZ(0)
     }
 }
-
 @keyframes keader {
     from {
         opacity: 0
     }
+    
     to {
         opacity: 1
     }
 }
-
 @-moz-keyframes keader {
     from {
         opacity: 0
     }
+    
     to {
         opacity: 1
     }
 }
-
 @-webkit-keyframes keader {
     from {
         opacity: 0
     }
+    
     to {
         opacity: 1
     }
 }
-
 @-ms-keyframes keader {
     from {
         opacity: 0
     }
+    
     to {
         opacity: 1
     }
 }
-
 @-o-keyframes keader {
     from {
         opacity: 0
     }
+    
     to {
         opacity: 1
     }
 }
-
 .kago {
     -webkit-animation-name: kago;
     animation-name: kago
 }
-
 .header-icons {
     -webkit-backface-visibility: visible!important;
     backface-visibility: visible!important;
     -webkit-animation-name: faded;
     animation-name: faded
 }
-
 @-webkit-keyframes faded {
     0% {
         -webkit-transform: perspective(400px) rotateX(90deg);
@@ -5198,27 +5174,30 @@ body {
         animation-timing-function: ease-in;
         opacity: 0
     }
+    
     40% {
         -webkit-transform: perspective(400px) rotateX(-20deg);
         transform: perspective(400px) rotateX(-20deg);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
+    
     60% {
         -webkit-transform: perspective(400px) rotateX(10deg);
         transform: perspective(400px) rotateX(10deg);
         opacity: 1
     }
+    
     80% {
         -webkit-transform: perspective(400px) rotateX(-5deg);
         transform: perspective(400px) rotateX(-5deg)
     }
+    
     to {
         -webkit-transform: perspective(400px);
         transform: perspective(400px)
     }
 }
-
 @keyframes faded {
     0% {
         -webkit-transform: perspective(400px) rotateX(90deg);
@@ -5227,31 +5206,33 @@ body {
         animation-timing-function: ease-in;
         opacity: 0
     }
+    
     40% {
         -webkit-transform: perspective(400px) rotateX(-20deg);
         transform: perspective(400px) rotateX(-20deg);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
+    
     60% {
         -webkit-transform: perspective(400px) rotateX(10deg);
         transform: perspective(400px) rotateX(10deg);
         opacity: 1
     }
+    
     80% {
         -webkit-transform: perspective(400px) rotateX(-5deg);
         transform: perspective(400px) rotateX(-5deg)
     }
+    
     to {
         -webkit-transform: perspective(400px);
         transform: perspective(400px)
     }
 }
-
 .download {
     margin: 40px 0 20px
 }
-
 .download a {
     transition: all .5s;
     color: #fff;
@@ -5263,67 +5244,61 @@ body {
     display: inline-block;
     margin: 0 15px 20px
 }
-
 .download a:hover {
     color: #fff;
     background-color: #000;
     border-color: #000;
 }
-
 #particles-js {
     min-width: 240px
 }
-
 .header {
     margin: 45px 50px
 }
-
 .header .site-description {
     line-height: 1.4
 }
-
 .keader {
     margin-top: 0;
     padding-top: 30px
 }
-
 .kago img {
     max-width: 145px;
     max-height: 145px
 }
-
 .header-icons .icon {
     padding: 9px
 }
-
 @media(min-width:768px) {
     .header .site-title {
         font-size: 64px;
         padding-bottom: 5px
     }
+    
     .header .site-description {
         font-size: 29px
     }
+    
     .header-icons .icon {
         line-height: 1.15;
         font-size: 29px
     }
 }
-
 @media(max-width:767px) {
     .download a {
         margin-left: 8px;
         margin-right: 8px
     }
+    
     .kago img {
         max-width: 130px;
         max-height: 130px
     }
+    
     .header {
         margin: 40px 25px
     }
 }
-
 .donate_block {
     position: fixed;
     top: 0;
@@ -5340,11 +5315,9 @@ body {
     outline: none;
     z-index: 10
 }
-
 .donate_block:hover {
     background: #ee6521
 }
-
 #donate_links {
     position: fixed;
     top: 46px;
@@ -5359,24 +5332,20 @@ body {
     z-index: 10;
     transition: all .5s
 }
-
 .donate_link {
     padding: 4px 25px 4px 20px;
     text-decoration: none;
     display: block;
     color: #00569e
 }
-
 .donate_link:hover {
     background: #dfdfdf
 }
-
 #donate_links ul {
     list-style: none;
     padding-left: 0;
     margin: 0
 }
-
 .modal {
     position: fixed;
     z-index: 11;
@@ -5394,13 +5363,11 @@ body {
     overflow: hidden;
     padding: 0
 }
-
 .modal.active {
     opacity: 1;
     height: 100%;
     padding-top: 30px
 }
-
 .modal-content {
     position: relative;
     background-color: #fefefe;
@@ -5412,7 +5379,6 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
     border-radius: 6px
 }
-
 .close {
     color: #aaa;
     float: right;
@@ -5420,14 +5386,12 @@ body {
     font-weight: 700;
     font-family: serif
 }
-
 .close:hover,
 .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer
 }
-
 .modal-header {
     padding: 2px 16px;
     background-color: #fefefe;
@@ -5435,7 +5399,6 @@ body {
     border-bottom: 1px solid #ddd;
     border-radius: 6px 6px 0 0
 }
-
 .modal_header_text {
     font-size: 18px;
     margin: 7px 23px 7px 0;
@@ -5445,12 +5408,10 @@ body {
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif
 }
-
 .modal-body {
     padding: 16px;
     text-align: center
 }
-
 .modal-body img {
     width: 250px;
     max-width: 100%
