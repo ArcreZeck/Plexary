@@ -125,7 +125,8 @@ sup {
 
 .keader {
     margin-top: 0;
-    padding-top: 30px -webkit-animation: keader 1.4s;
+    padding-top: 30px;
+    -webkit-animation: keader 1.4s;
     -moz-animation: keader 1.4s;
     -ms-animation: keader 1.4s;
     -o-animation: keader 1.4s;
