@@ -25,6 +25,10 @@
     margin-top: 10px
 }
 
+#notice {
+    color: #ff726f;
+}
+
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects
