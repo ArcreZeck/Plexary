@@ -1,14 +1,62 @@
 /* CLASSES */
 
-.header {
-    font-family: montserrat, sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    background-color: transparent;
+}
+
+.nav__links li,
+.nav__links a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #26262b;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: tomato;
+}
+
+.heading {
+    font-family: 'Ubuntu', sans-serif;
     z-index: 1;
     text-align: center;
     color: #fff;
     margin: 45px 50px;
 }
 
-.header .site-title {
+.heading .site-title {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 50px;
@@ -17,7 +65,7 @@
     color: #61dafb
 }
 
-.header .site-description {
+.heading .site-description {
     font-size: 20px;
     display: block;
     line-height: 1.4;
@@ -25,63 +73,16 @@
     margin-top: 10px
 }
 
-#notice {
-    color: #ff726f;
-}
-
-a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects
-}
-
-b,
-strong {
-    font-weight: bolder
-}
-
-small {
-    font-size: 80%
-}
-
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative
-}
-
-sub {
-    bottom: -.25em
-}
-
-sup {
-    top: -.5em
-}
-
-img {
-    border-style: none
-}
-
-svg:not(:root) {
-    overflow: hidden
-}
-
-button {
-    text-transform: none
-}
-
-button,
-html [type=button] {
-    -webkit-appearance: button
-}
-
 body {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
     margin: 0;
     padding: 0;
     font-size: 100%;
     line-height: 1.5;
     color: #26262b;
-    font-family: antic slab, serif
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1,
@@ -122,9 +123,26 @@ ul {
     margin: 1em 0
 }
 
-sub,
-sup {
-    line-height: 0
+.download {
+    margin: 40px 0 20px
+}
+
+.download a {
+    transition: all .5s;
+    color: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+    padding: 9px 18px;
+    font-size: 23px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 15px 20px
+}
+
+.download a:hover {
+    color: #fff;
+    background-color: #000 !important;
+    border-color: #000;
 }
 
 .keader {
@@ -147,28 +165,6 @@ sup {
 .kago {
     -webkit-animation-name: kago;
     animation-name: kago
-}
-
-.download {
-    margin: 40px 0 20px
-}
-
-.download a {
-    transition: all .5s;
-    color: #fff;
-    border: 2px solid #fff;
-    text-decoration: none;
-    padding: 9px 18px;
-    font-size: 23px;
-    border-radius: 10px;
-    display: inline-block;
-    margin: 0 15px 20px
-}
-
-.download a:hover {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
 }
 
 
@@ -301,6 +297,10 @@ sup {
     max-width: 960px
 }
 
+#notice {
+    color: #ff726f;
+}
+
 #particles-js {
     background: #26262b;
     display: flex;
@@ -322,12 +322,12 @@ sup {
 /* RESPONSIVE */
 
 @media(min-width:768px) {
-    .header .site-title {
+    .heading .site-title {
         margin: 0;
         font-size: 64px;
         padding-bottom: 5px
     }
-    .header .site-description {
+    .heading .site-description {
         font-size: 29px
     }
 }
@@ -337,7 +337,7 @@ sup {
         margin-left: 8px;
         margin-right: 8px
     }
-    .header {
+    .heading {
         margin: 40px 25px
     }
 }
