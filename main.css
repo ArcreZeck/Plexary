@@ -84,9 +84,21 @@ header {
     margin-top: 10px
 }
 
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE and Edge */
+
 body {
-    position: fixed;
-    overflow: hidden;
+    -ms-overflow-style: none;
+}
+
+body {
     width: 100%;
     margin: 0;
     padding: 0;
