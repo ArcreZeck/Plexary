@@ -1,0 +1,9 @@
+{
+    "global-access": true,
+    "latest-version": "0.0.8",
+    "require-latest": true,
+    "functionalities": {
+        "login": "false",
+        "signup": "false"
+    }
+}
