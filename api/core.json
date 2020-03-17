@@ -1,6 +1,6 @@
 {
     "global-access": true,
-    "latest-version": "0.0.8",
+    "latest-version": "0.0.9",
     "require-latest": true,
     "functionalities": {
         "login": false,
