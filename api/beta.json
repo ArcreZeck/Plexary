@@ -1,7 +1,7 @@
 {
     "config": "beta",
     "global-access": true,
-    "latest-version": "0.1.0",
+    "latest-version": "0.1.1",
     "require-latest": false,
     "functionalities": {
         "login": false,

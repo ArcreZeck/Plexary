@@ -2,7 +2,7 @@
     "config": "live",
     "global-access": true,
     "latest-version": "0.1.0",
-    "require-latest": false,
+    "require-latest": true,
     "functionalities": {
         "login": false,
         "signup": false
