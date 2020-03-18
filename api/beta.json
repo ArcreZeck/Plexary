@@ -1,8 +1,8 @@
 {
-    "config": "live",
+    "config": "beta",
     "global-access": true,
     "latest-version": "0.0.10",
-    "require-latest": true,
+    "require-latest": false,
     "functionalities": {
         "login": false,
         "signup": false
