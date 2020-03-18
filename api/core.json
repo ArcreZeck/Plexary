@@ -1,6 +1,6 @@
 {
     "config": "live",
-    "global-access": true,
+    "global-access": false,
     "latest-version": "0.1.0",
     "require-latest": false,
     "functionalities": {
