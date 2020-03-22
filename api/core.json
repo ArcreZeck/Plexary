@@ -1,11 +1,11 @@
 {
     "config": "live",
     "global-access": true,
-    "latest-version": "0.1.6",
+    "latest-version": "0.1.7",
     "require-latest": false,
     "operating-versions": {
         "0.1.5": false,
-        "0.1.6": true,
+        "0.1.6": false,
         "0.1.7": true,
         "0.1.8": true,
         "0.1.9": true,
