@@ -1,8 +1,16 @@
 {
     "config": "live",
     "global-access": true,
-    "latest-version": "0.1.5",
+    "latest-version": "0.1.6",
     "require-latest": false,
+    "operating-versions": {
+        "0.1.5": false,
+        "0.1.6": true,
+        "0.1.7": true,
+        "0.1.8": true,
+        "0.1.9": true,
+        "0.2.0": true
+    },
     "functionalities": {
         "login": true,
         "signup": false
