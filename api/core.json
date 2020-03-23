@@ -89,7 +89,7 @@
             }
         },
         "0.2.2": {
-            "allowed": false,
+            "allowed": true,
             "functionalities": {
                 "login": false,
                 "signup": false
