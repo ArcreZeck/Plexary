@@ -96,14 +96,14 @@
             }
         },
         "0.2.3": {
-            "allowed": false,
+            "allowed": true,
             "functionalities": {
                 "login": false,
                 "signup": false
             }
         },
         "0.2.4": {
-            "allowed": false,
+            "allowed": true,
             "functionalities": {
                 "login": false,
                 "signup": false
