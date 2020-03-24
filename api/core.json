@@ -1,6 +1,6 @@
 {
     "branch": "beta",
-    "latest-version": "0.2.2",
+    "latest-version": "0.2.3",
     "global-access": true,
     "require-latest": false,
     "operating-versions": {
