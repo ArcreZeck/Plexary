@@ -1,7 +1,0 @@
-{
-    "allowed": true,
-    "functionalities": {
-        "login": false,
-        "signup": false
-    }
-}
