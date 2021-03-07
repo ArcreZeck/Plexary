@@ -65,7 +65,7 @@
 .u-section-1 .u-image-1 {
   min-height: 530px;
   pointer-events: auto;
-  background-image: url("img/nhi.jpeg");
+  background-image: url("img/nhi.jpg");
   background-position: 50% 50%;
 }
 
@@ -73,6 +73,30 @@
   min-height: 530px;
   pointer-events: auto;
   background-image: url("img/nhu.jpg");
+  background-position: 50% 50%;
+}
+.u-section-1 .u-image-3 {
+  min-height: 530px;
+  pointer-events: auto;
+  background-image: url("img/thu.jpg");
+  background-position: 50% 50%;
+}
+.u-section-1 .u-image-4 {
+  min-height: 530px;
+  pointer-events: auto;
+  background-image: url("img/duyen.jpg");
+  background-position: 50% 50%;
+}
+.u-section-1 .u-image-5 {
+  min-height: 530px;
+  pointer-events: auto;
+  background-image: url("img/yen.jpg");
+  background-position: 50% 50%;
+}
+.u-section-1 .u-image-6 {
+  min-height: 530px;
+  pointer-events: auto;
+  background-image: url("img/vy.jpg");
   background-position: 50% 50%;
 }
 
